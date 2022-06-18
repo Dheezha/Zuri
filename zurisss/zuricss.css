@@ -1,0 +1,180 @@
+.topnav {
+    background-color: gray;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: rgb(255, 0, 123);
+    text-align: center;
+    padding: 20px 60px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 85px;
+}
+main{
+    background-color: wheat;
+}
+.myself{
+      text-align: center;
+}
+.myself h3{
+    text-decoration: underline;
+    padding-top: 50px;
+}
+.picture{
+    display: flex;
+    padding-top: 50px;
+}
+.picture img{
+    width: 50%;
+  height: 500px;
+  margin-right: 50px;
+}
+.picture p{
+    padding-top: 100px;
+}
+.four{
+    background-color: gray;
+    margin-top: 50px;  
+    text-align: center;
+}
+.four button{  
+    width: 170px;
+    height: 80px;
+}
+.four a{
+    text-decoration: none;
+    color: rgb(255, 0, 123);
+    font-size: medium;
+}
+
+/* ........Contact starts here .......*/
+.container{
+    text-align: center;
+    padding-top: 100px;
+    background-color: wheat;
+}
+.container h2{
+    text-decoration: underline;
+}
+.container textarea{
+    
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+input {  
+    border: 2px solid #eee;
+    border-radius: 4px;
+  }
+  input:valid,
+  input:in-range {  
+    border-color: green;
+  }
+  input:invalid,
+  input:out-of-range {
+    border-color: red;  
+  }
+.forms{
+   color: rgb(255, 0, 123);
+}
+label {
+    padding: 20px 20px 12px 0;
+    display: inline-block;
+    border-radius: 90px;
+}
+ button{
+    margin: 50px;
+    height: 50px;
+    width: 80px;
+}
+.container a{
+    text-decoration: none;
+    color: rgb(255, 0, 123);
+}
+.floor{
+    background-color: gray;
+    /* margin-top: 50px;   */
+    text-align: center;
+}
+span{
+    color: rgb(255, 0, 123); ;
+}
+/* ...... Contact ends here ...... */
+
+/* ...... Login starts here */
+.contain{
+    text-align: center;
+    padding: 150px;
+    background-color: wheat;
+    text-decoration: none;
+    color: rgb(255, 0, 123);
+}
+/* .contain a{
+    text-decoration: none;
+    color: rgb(255, 0, 123);
+} */
+.foot{
+    background-color: gray; 
+    text-align: center;
+}
+
+/* ...... Login ends here ...... */
+
+/* ...... Register starts here */
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: wheat;
+  }
+  
+  
+  .registartion-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    color: rgb(255, 0, 123);
+    font-size: 18px;
+    font-family: sans-serif;;
+    padding: 20px;
+    margin-top: 150px;
+  }
+  .registartion-form input:focus,
+.registartion-form textarea:focus {
+  box-shadow: 3px 3px 10px rgb(228, 228, 228), -3px -3px 10px rgb(224, 224, 224);
+}
+  
+  .registartion-form input,
+  .registartion-form select,
+  .registartion-form textarea {
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+    font-family: sans-serif;
+  }
+  
+  
+  .registartion-form .submit {
+    width: 100%;
+    padding: 8px 0;
+    font-size: 20px;
+    color: rgb(255, 0, 123);
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+  
+  .registartion-form .submit:hover {
+    box-shadow: 3px 3px 6px rgb(255, 0, 123);
+  }
+  .foots{
+    background-color: gray; 
+    text-align: center;
+}
+/* ...... Register ends here ...... */
+
